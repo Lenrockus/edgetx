@@ -18,6 +18,7 @@ if(NOT NATIVE_BUILD)
     ${STM32CUBE_DIR}/Src/stm32f4xx_ll_sdmmc.c
     ${STM32CUBE_DIR}/Src/stm32f4xx_ll_adc.c
     ${STM32CUBE_DIR}/Src/stm32f4xx_ll_spi.c
+    ${STM32CUBE_DIR}/Src/stm32f4xx_ll_usb.c
     # HAL drivers
     ${STM32CUBE_DIR}/Src/stm32f4xx_hal.c
     ${STM32CUBE_DIR}/Src/stm32f4xx_hal_pwr.c
@@ -28,6 +29,8 @@ if(NOT NATIVE_BUILD)
     ${STM32CUBE_DIR}/Src/stm32f4xx_hal_i2c_ex.c
     ${STM32CUBE_DIR}/Src/stm32f4xx_hal_sd.c
     ${STM32CUBE_DIR}/Src/stm32f4xx_hal_dma.c
+    ${STM32CUBE_DIR}/Src/stm32f4xx_hal_pcd.c
+    ${STM32CUBE_DIR}/Src/stm32f4xx_hal_pcd_ex.c
     )
 
   target_compile_options(stm32cube_ll PRIVATE -DUSE_FULL_LL_DRIVER)
