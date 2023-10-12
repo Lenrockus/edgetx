@@ -22,12 +22,10 @@
 #include <math.h>
 #include <gtest/gtest.h>
 
-#define SWAP_DEFINED
 #include "opentx.h"
 #include "location.h"
 
 #if defined(COLORLCD)
-
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
