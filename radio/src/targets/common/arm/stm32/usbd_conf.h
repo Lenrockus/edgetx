@@ -31,13 +31,11 @@
 #include <stdlib.h>
 #include <string.h>
 #ifndef _BOARD_H_
-#include "stm32_hal.h"
+//#include "stm32_hal.h"
+#include "stm32_hal_ll.h"
 #endif
 
 #include "definitions.h"
-
-//#include "stm32f4xx.h"
-//#include "stm32f4xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
 
